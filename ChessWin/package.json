@@ -1,0 +1,16 @@
+{
+  "name": "chesswin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd Server && npm install && cd ../Client && npm install && npm run build",
+    "start-server": "cd Server && node index.js",
+    "install-client": "cd Client && npm install",
+    "build-client": "cd Client && npm run build",
+    "start-client": "cd Client && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
